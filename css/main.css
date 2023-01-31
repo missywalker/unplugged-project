@@ -87,10 +87,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+
+   html {
+    font-size: 16px;
+   }
+    
+   body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+
+   }
+    
+   ul, 
+   ol {
+    /*font-size: 1.125em;
+    font-weight: bold; */
+    list-style-type: none;
+   }
+    
+   a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #e2e3ed; 
+   }
+    
+   h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+   }
+    
+   h3, 
+   h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    font-weight: 500;
+   }
+    
+   p {
+     font-size: .875em;
+     line-height: 18px;
+   }
+    
+   img {
+    
+   }
+    
+   figure {
+    
+   }
+    
+   address {
+    font-style: normal;
+   }
+    
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
   }
+
+/********* END of General Styles **********/
+
+
 
 /********** Header and Footer styles **********/
 
@@ -138,6 +198,12 @@ li {
   list-style: none;
 }
 
+h1 {
+  font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 500;
+}
+
 footer {
   flex-direction: column;
 }
@@ -159,6 +225,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.31em;
 }
 
 footer .social-icons p {
@@ -188,6 +255,10 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+text, input {
+ font-size: 1.125em;
+ font-weight: 500;
+}
 /* Features */
 
 .features {
@@ -213,6 +284,10 @@ footer .copyright {
 
 .features p {
   margin: 0;
+}
+
+.fontawesome-icon {
+  font-size: 3.75em;
 }
 
 /* Reviews */
@@ -383,6 +458,21 @@ flex-flow: row wrap;
 
   /* General Styles */
 
+  h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 24px;
+  }
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;  /* On design comp the margin between ALL content is 100px */
@@ -410,6 +500,11 @@ flex-flow: row wrap;
  }
  .header-divider {
   display: none;
+ }
+
+ h1 {
+  font-size: 3em;
+  line-height: 48px;
  }
 }
 
@@ -480,6 +575,13 @@ footer .contact {
   margin-bottom: 0;
 }
 
+.contact h4 {
+  font-size: 1.5em;
+}
+
+footer p {
+  line-height: 18px;
+}
 footer .copyright {
   width: 100%;
 }
@@ -531,6 +633,10 @@ footer .copyright {
     width: 100%;
 }
 
+.faq-content h4 p {
+  font-size: .875em;
+  line-height: 15.75px;
+}
 /* ================= End of Tablet Styles ================== */
 
 
@@ -544,8 +650,26 @@ footer .copyright {
   /* Desktop styles here */
    /* General Styles */
 
+   h2 {
+    font-size: 2.25em;
+   }
+
+   h3, h4 {
+    font-size: 1.875em;
+   }
+
+   p {
+    font-size: 1.125em;
+    line-height: 24px;
+   }
+
    .content-wrapper {
     max-width: 960px;
+  }
+
+  /* Header */
+  h1 {
+    font-size: 3.75em;
   }
 
 /* Hero */
@@ -586,14 +710,23 @@ footer .copyright {
   width: 95%;
 }
 
+.mission h2 {
+  font-size: 3em;
+}
+
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
 
    .faq h2 {
-   width: 100%
+   width: 100%;
+   font-size: 3em;
 }
 
+   .faq h4 {
+    font-size: 1.125em;
+    line-height: 18px;
+}
 }
 /* ==========================================================================
    Print styles.
