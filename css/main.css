@@ -360,10 +360,11 @@ input[type=button] {
   margin: 0;
 }
 
-/******.fontawesome-icon {
-  font-size: 3.75em;
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
 }
-***/
+
 /* Reviews */
 
 .reviews {
