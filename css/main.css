@@ -177,6 +177,11 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header .content-wrapper-left {
+  display: flex;
+  justify-content: center;
+}
+
 header figure {
   width: 60%;
   display: flex;
@@ -207,7 +212,7 @@ header nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-left: 12px;
+  /*padding-left: 12px; */
 }
 
 header nav ul li {
@@ -473,7 +478,7 @@ flex-flow: row wrap;
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -621,10 +626,11 @@ flex-flow: row wrap;
  header .content-wrapper-left {
   margin: 0;
   max-width: 70%;
+  justify-content: flex-start;
  }
 
  header figure {
-  width: 45%;
+  width: 43%;
  /** margin-left: 0; I added this is it correct? **/
  }
 
@@ -633,7 +639,7 @@ flex-flow: row wrap;
  }
 
  header nav ul {
-  justify-content: space-between;
+  justify-content: space-around;   /*changed from space-between*/
  /***** padding-left: 10px; *****/
   
  }
@@ -758,6 +764,10 @@ footer .copyright {
 /* ==========================================================================
    About Page
    ========================================================================== */
+  .mission h2 {
+    margin: 0;
+    font-size: 2.2em;
+  }
 
   .mission-content {
     display: flex;
@@ -804,6 +814,7 @@ footer .copyright {
 
   .faq h2 {
     width: 100%;
+    margin-top: 0;
 }
 
   .faq h4,
@@ -827,6 +838,14 @@ footer .copyright {
 
    header {
     padding: 15px 0;
+  }
+  
+  header figure {
+    width: 45%;
+   }
+
+  header nav ul {
+    justify-content: space-around;
   }
 
    .content-wrapper {
@@ -869,7 +888,7 @@ footer .copyright {
 }
 
 /* Features */
-2
+
 .features h2 {
   width: 90%;
 }
@@ -899,6 +918,7 @@ footer h4 {
 .contact-section .content-wrapper h2 {
   width: 95%;
   font-size: 3em;
+  margin: 0;
 }
 
 .map figure {
@@ -916,6 +936,7 @@ footer h4 {
    .faq h2 {
    width: 100%;
    font-size: 3em;
+   margin: 0 0 35px 0;
 }
 
    .faq h4, 
